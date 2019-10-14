@@ -6,6 +6,7 @@ import {deBounceTest} from './case/debounce'
 import {throttleTest} from './case/throttle'
 import {deepCloneTest} from './case/deepClone'
 import {disruptArrayTest} from './case/disruptArray'
+import {quickSortTest} from './case/quicksort'
 
 //灰常重要，知会 webpack 允许此模块的热更新
 if (module.hot) {
@@ -24,4 +25,7 @@ if (module.hot) {
 // deepCloneTest();
 
 //数组乱序
-disruptArrayTest();
+// disruptArrayTest();
+
+//快速排序
+quickSortTest();
