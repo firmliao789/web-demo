@@ -7,6 +7,7 @@ import {throttleTest} from './case/throttle'
 import {deepCloneTest} from './case/deepClone'
 import {disruptArrayTest} from './case/disruptArray'
 import {quickSortTest} from './case/quicksort'
+import {lruCacheTest} from './case/lruCache'
 
 //灰常重要，知会 webpack 允许此模块的热更新
 if (module.hot) {
@@ -28,4 +29,7 @@ if (module.hot) {
 // disruptArrayTest();
 
 //快速排序
-quickSortTest();
+// quickSortTest();
+
+//简单缓存机制实现
+lruCacheTest();
