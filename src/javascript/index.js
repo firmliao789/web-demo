@@ -8,7 +8,9 @@ import {deepCloneTest} from './case/deepClone'
 import {disruptArrayTest} from './case/disruptArray'
 import {quickSortTest} from './case/quicksort'
 import {lruCacheTest} from './case/lruCache'
-
+import {promiseTest} from './case/promise'
+import {twoSumTest} from './case/twoSum'
+import {fourSumTest} from './case/fourSum'
 //灰常重要，知会 webpack 允许此模块的热更新
 if (module.hot) {
     module.hot.accept();
@@ -32,4 +34,13 @@ if (module.hot) {
 // quickSortTest();
 
 //简单缓存机制实现
-lruCacheTest();
+// lruCacheTest();
+
+//promise
+// promiseTest();
+
+//两数求和
+// twoSumTest();
+
+//四数求和
+// fourSumTest();

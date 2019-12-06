@@ -3,7 +3,7 @@ const htmlWebpackPlugin = require('html-webpack-plugin')
 const webpack = require('webpack');
 module.exports = {
     mode: "development",
-    entry: ['webpack-hot-middleware/client.js', './src/javascript/index'],
+    entry: ['webpack-hot-middleware/client.js', './src/javascript/index', './src/leetcode/index'],
     output: {
         path: path.resolve(__dirname, './dist'),
         filename: 'bundle.js'
