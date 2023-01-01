@@ -4,11 +4,11 @@
   "description": "集合web端html、css、js学习案例",
   "main": "index.js",
   "dependencies": {
-    "webpack": "^4.41.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "express": "^4.17.1",
-    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-plugin": "^5.5.0",
     "path": "^0.12.7",
     "webpack-dev-middleware": "^3.7.2",
     "webpack-hot-middleware": "^2.25.0"
